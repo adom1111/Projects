@@ -1,0 +1,77 @@
+body{
+    margin: 10px;
+    <style>
+  * {
+    font-family: 'Markazi Text';
+    font-weight: 400;
+  }
+}
+  @supports (font-variation-settings: "wght" 450) {
+    * {
+      font-family: 'Markazi Text';
+      font-weight: 450;
+    }
+  }
+</style>
+h1{
+    font-size: 50px;
+}
+p{
+    color: dimgray;
+}
+.orange-highlight{
+    color: brown;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 55%; 
+    margin-right: 5%;   
+}
+.top-banner{
+background-image: url(img/top-banner.png);
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: rgb(208, 0, 125);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.Deram Big{
+background-image: url(img/dream-bg.png);
+background-repeat: no-repeat;
+background-position: right;
+}
+.single-experiences{
+  background-color: white;
+  box-shadow: 10px 10px 50px gray;
+  border-radius: 5px;
+  height: 50%;
+}
+.experiences-area{
+  background-image: url(img/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#Full-Stack{
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(111, 10, 227), rgb(65, 31, 25));
+  border-image-slice: 1;
+} 
+#Baby-Web{
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(53, 145, 32), rgb(65, 31, 25));
+  border-image-slice: 1;
+}
+footer p{
+ text-align: center;
+}
