@@ -1,17 +1,10 @@
-body{
-    margin: 10px;
-    <style>
-  * {
-    font-family: 'Markazi Text';
-    font-weight: 400;
-  }
-}
-  @supports (font-variation-settings: "wght" 450) {
-    * {
-      font-family: 'Markazi Text';
-      font-weight: 450;
-    }
-  }
+body{     
+  margin: 10px;     
+  <style>   
+* {     
+  font-family: 'Markazi Text';font-weight: 400;   
+} }
+   @supports (font-variation-settings: "wght" 450)
 </style>
 h1{
     font-size: 50px;
@@ -29,12 +22,14 @@ p{
     padding-left: 2%;
 }
 .half-width img{
-    width: 55%; 
-    margin-right: 5%;   
+    width: 50%; 
+    margin-left: 10%;   
 }
 .top-banner{
-background-image: url(img/top-banner.png);
-}
+  background-image: url(img/top-banner.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  }
 section{
     height: 500px;
 }
@@ -47,10 +42,10 @@ section{
     font-weight: 700;
 }
 .Deram Big{
-background-image: url(img/dream-bg.png);
-background-repeat: no-repeat;
-background-position: right;
-}
+  background-image: url(img/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  }
 .single-experiences{
   background-color: white;
   box-shadow: 10px 10px 50px gray;
@@ -74,4 +69,10 @@ background-position: right;
 }
 footer p{
  text-align: center;
+}
+.single{
+  background-color: white;
+  box-shadow: 10px 10px 50px gray;
+  border-radius: 5px;
+  height: 6%;
 }
