@@ -62,3 +62,9 @@ section{
 footer p{
  text-align: center;
 }
+.single{
+  background-color: white;
+  box-shadow: 10px 10px 50px rgb(76, 88, 121);
+  border-radius: 5px;
+  height: 6%;
+}
